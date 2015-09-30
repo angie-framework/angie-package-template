@@ -1,11 +1,11 @@
 {
   "name": "angie-package-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Template for Angie Dependency Package Creation",
   "license": "MIT",
   "bin": {
-    "angie-log": "bin/angie-template",
-    "angie-log-dist": "bin/angie-template-dist"
+    "angie-template": "bin/angie-template",
+    "angie-template-dist": "bin/angie-template-dist"
   },
   "main": "dist/index.js",
   "private": true,
