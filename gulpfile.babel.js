@@ -84,7 +84,7 @@ gulp.task('default', [ 'babel' ]);
 // Utility Tasks
 gulp.task('bump', function() {
     const version = argv.version,
-        bump = (f) => fs.writeFileSync(f, fs.readFileSync(f, 'utf8').replace(
+        bump = f => fs.writeFileSync(f, fs.readFileSync(f, 'utf8').replace(
             /[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}/,
             version
         ));
