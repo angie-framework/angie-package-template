@@ -8,7 +8,7 @@
     "angie-template-dist": "bin/angie-template-dist"
   },
   "main": "dist/index.js",
-  "private": true,
+  "private": false,
   "preferGlobal": false,
   "scripts": {
     "start": "node bin/angie-template-dist",
